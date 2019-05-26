@@ -1,0 +1,4 @@
+baseURL = "http://www.nwerc.eu/"
+languageCode = "en-us"
+title = "NWERC 2019"
+theme = "nwerc"
