@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: 2018-04-30T23:41:55+02:00
+date: 2019-04-30T23:41:52+02:00
 draft: false
 sections_weight: 10
 ---

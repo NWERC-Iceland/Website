@@ -1,6 +1,6 @@
 ---
 title: "Rules"
-date: 2019-05-23T23:41:52+02:00
+date: 2019-04-30T23:41:52+02:00
 weight: 6
 draft: false
 ---

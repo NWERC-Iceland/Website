@@ -1,6 +1,6 @@
 ---
 title: "Contest"
-date: 2018-07-07T19:52:52+02:00
+date: 2019-04-30T23:41:52+02:00
 weight: 2
 draft: false
 ---
