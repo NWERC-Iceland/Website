@@ -13,7 +13,7 @@ This contest will take place at Eindhoven University of Technology, from 15 to 1
 We allow combining the role of judge with the role of team coach. Please take great care to not confuse the roles, though!
 </p>
 <p>
-Questions regarding this call can be posed to: <a href='mailto:cfp-2019@nwerc.eu'>cfp-2019@nwerc.eu</a>
+Questions regarding this call can be posed to: <a href='mailto:cfp-2019@nwerc.eu'>cfp-2019@nwerc.eu</a>.
 </p>
 
 
@@ -58,29 +58,30 @@ In case your problem requires a non-standard checker program, you are encouraged
 <p>
 We will need a variety of problem difficulties to make a well-balanced problem set. Do not hesitate to submit (relatively) simple problems for consideration.
 </p>
-</div>
 
 <h3 style="margin-top:2em; display: inline-block;">Submission Format</h3>
 
+<p>
 Please use the following setup for problem submission.
 <ul>
 <li>It is preferred (but not mandatory) if your Problem Statement is delivered in LaTeX format. Before the contest, the problems will be stylistically homogenised and typeset using LaTeX. </li>
 <li>Please put all relevant files of your submission in a single directory containing one subdirectory per problem, and ZIP this directory.</li>
 </ul>
-
-<p>
-We will be using the "DOMJudge" automated judging system. If you want to use the official ICPC format when submitting your proposal it is documented here: <a href="http://www.problemarchive.org/wiki/index.php/Problem_Format">http://www.problemarchive.org/wiki/index.php/Problem_Format</a>
 </p>
 <p>
-You can find example packages <a href="/files/nwerc2017all.tar.bz2">here</a>
+We will be using the "DOMJudge" automated judging system. If you want to use the official ICPC format when submitting your proposal it is documented here: <a href="http://www.problemarchive.org/wiki/index.php/Problem_Format">http://www.problemarchive.org/wiki/index.php/Problem_Format</a>.
 </p>
-</div>
+<p>
+You can find example packages <a href="/files/nwerc2017all.tar.bz2">here</a>.
+</p>
 
 
 <h3 style="margin-top:2em;  display: inline-block;">Submission Procedure</h3>
 
+<p>
 The candidate problems are highly confidential. While not mandatory we suggest that the ZIP files are delivered to us in a safe (encrypted) manner. You can download the <a href="/files/pgp.asc">public PGP key</a> when submitting a candidate problem. If you have a PGP key, please use it to sign your submission.<br>
 Send the submission to: <a href="mailto:cfp-2019@nwerc.eu">cfp-2019@nwerc.eu</a>.
+</p>
 <p>
 If you haven't used PGP for encrypting before, you are encouraged to send an encrypted e-mail with the text "A little nonsense" to <a href="mailto:cfp-2019@nwerc.eu">cfp-2019@nwerc.eu</a> to practice before sending your submission.
 </p>
