@@ -19,11 +19,13 @@ The following rules will be adhered to when accepting teams.
 
 ## Institution list
 
-As of September 11<sup>th</sup> 10:12 CEST we have received a reply for the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
+As of September 11<sup>th</sup> 12:19 CEST we have received a reply for the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
 
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
  - KTH Royal Institute of Technology
  - Vrije Universiteit Amsterdam
  - Technische Universität München (TUM)
-
+ - Aalto University
+ - University of Edinburgh
+ - Delft University of Technology
