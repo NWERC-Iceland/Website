@@ -33,3 +33,5 @@ As of September 12<sup>th</sup> 10:04 CEST we have received a reply from the fol
  - University of Bergen
  - Karlsruhe Institute of Technology
  - Avans University of Applied Sciences
+ - University of Bath
+ - Jacobs University
