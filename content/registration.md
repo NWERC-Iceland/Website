@@ -19,7 +19,7 @@ The following rules will be adhered to when accepting teams.
 
 ## Institution list
 
-As of September 11<sup>th</sup> 12:19 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
+As of September 12<sup>th</sup> 10:04 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
 
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
@@ -29,3 +29,7 @@ As of September 11<sup>th</sup> 12:19 CEST we have received a reply from the fol
  - Aalto University
  - University of Edinburgh
  - Delft University of Technology
+ - Uni Mainz
+ - University of Bergen
+ - Karlsruhe Institute of Technology
+ - Avans University of Applied Sciences
