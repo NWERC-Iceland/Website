@@ -18,13 +18,12 @@ If you have any questions, please drop us an email at: contact "at" nwerc "dot" 
 - To be decided
 
 ## Local committee
+- Jasper Dellaert
+- Tobin van den Hurk
+- Pieter Ebbers
 - Rick Wouters
 - Kevin Jilissen
-- Tobin van den Hurk
 - Henk van der Laan
 - Nicky Gerritsen
 - Bas Gieling
-- Jasper Dellaert
-- Pieter Ebbers
-- Bart van de Hesseweg
-
+- Kit Smeets
