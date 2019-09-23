@@ -19,7 +19,7 @@ The following rules will be adhered to when accepting teams.
 
 ## Institution list
 
-As of September 20<sup>th</sup> 23:56 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
+As of September 23<sup>rd</sup> 10:39 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
 
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
@@ -43,3 +43,5 @@ As of September 20<sup>th</sup> 23:56 CEST we have received a reply from the fol
  - Universität zu Lübeck
  - University of Twente
  - Ulm University
+ - Radboud University
+ - Linköping University
