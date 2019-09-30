@@ -19,7 +19,7 @@ The following rules will be adhered to when accepting teams.
 
 ## Institution list
 
-As of September 24<sup>th</sup> 22:24 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
+As of September 30<sup>th</sup> 10:34 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 1st 2019 -->
 
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
@@ -48,3 +48,9 @@ As of September 24<sup>th</sup> 22:24 CEST we have received a reply from the fol
  - Tallinn University of Technology
  - University of Göttingen
  - University of Cambridge
+ - University of Iceland
+ - Utrecht University
+ - Leiden University
+ - Reykjavík University
+ - Ludwig Maximilian University Munich
+ - Fontys University of Applied Science
