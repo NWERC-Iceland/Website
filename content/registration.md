@@ -20,7 +20,7 @@ The following rules will be adhered to when accepting teams.
 
 ## Institution list
 
-As of October 2<sup>nd</sup> 11:10 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 9<sup>th</sup> 2019 -->
+As of October 4<sup>th</sup> 11:20 CEST we have received a reply from the following institutions. <!-- If you have not yet submitted the form, please send us an email at TODO EMAIL, AFTER Oct 9<sup>th</sup> 2019 -->
 
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
@@ -64,3 +64,6 @@ As of October 2<sup>nd</sup> 11:10 CEST we have received a reply from the follow
  - Brunel University London
  - University of Manchester
  - University of Southampton
+ - UCLouvain
+ - Universität Rostock
+ - University College London
