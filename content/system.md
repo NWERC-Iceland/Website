@@ -1,28 +1,28 @@
 ---
 title: "System"
-date: 2018-08-27T23:41:52+02:00
+date: 2019-10-10T23:41:52+02:00
 weight: 7
-draft: true
+draft: false
 ---
 # Contest machines
-The following page contains the specifications for the contest machines, if you would like to see some tool/program added, please send us an email. Submissions after November 16 will no longer be considered. A virtualbox appliance containing the contestant image can be found [here](https://s3.eu-central-1.amazonaws.com/nwerc/ib.ova); both the username and password are: "contestant". In the appliance root access (through sudo) is available, this will not be the case during the contest.
+The following page contains the specifications for the contest machines, if you would like to see some tool/program added, please send us an email. Submissions after November 8 will no longer be considered. A virtualbox appliance containing the contestant image can be found [here](https://s3.eu-central-1.amazonaws.com/nwerc/ib2.ova); both the username and password are: "contestant". In the appliance root access (through sudo) is available, this will not be the case during the contest.
 
 # Image
-The image is based on Ubuntu 18.04.1 LTS, the following programs/tools are installed
+The image is based on Ubuntu 18.04.3 LTS, the following programs/tools are installed
 # Contest control system
 During the contest, teams will submit proposed solutions to the contest problems to the Judges using the [DOMjudge](https://www.domjudge.org) contest control system. The team manual for DOMjudge can be found [here](/files/team-manual.pdf).
 ## Compilation of submissions
 Source files submitted to the Judges will be compiled using the following command line arguments for the respective language:
 
-* GCC 7.3.0 
+* GCC 7.4.0 
 <pre>gcc -x c -Wall -O2 -static -pipe -std=gnu11 ${files} -lm</pre>
-* G++ 7.3.0 
+* G++ 7.4.0 
 <pre>g++ -x c++ -Wall -O2 -static -pipe -std=gnu++14 ${files}</pre>
-* Java 10 (OpenJDK, Java 10.0.2) 
+* Java 11 (OpenJDK, Java 11.0.4) 
 <pre>javac -encoding UTF-8 -sourcepath . -d . ${files}</pre>
 * PyPy 5.10.0 (= Python 2.7.13)
 <pre>python2 -m py_compile ${files}</pre>
-* Python3 (3.7.1) 
+* Python3 (3.7.3) 
 <pre>python3 -m py_compile ${files}</pre>
 * Kotlin (1.3.0)
 <pre>kotlinc -d . ${files}</pre>
@@ -43,30 +43,30 @@ For each language, if the above compilation step is successful then the submissi
 * For Python 2: the main source file will be executed by the PyPy Python interpreter to generate the output of the submission.
 * For Python 3: the main source file will be executed by the CPython Python3 interpreter to generate the output of the submission.
 * For Java: the compiled main class will be executed using the following command:
-<pre>java -Dfile.encoding=UTF-8 -XX:+UseSerialGC -Xss64m -Xms1920m -Xmx1920m</pre>
+<pre>java -Dfile.encoding=UTF-8 -XX:+UseSerialGC -Xss128m -Xms1920m -Xmx1920m</pre>
 
 * For Kotlin: the compiled main class will be executed using the following command:
-<pre>kotlin -Dfile.encoding=UTF-8 -J-XX:+UseSerialGC -J-Xss64m -J-Xms1920m -J-Xmx1920m</pre>
+<pre>kotlin -Dfile.encoding=UTF-8 -J-XX:+UseSerialGC -J-Xss128m -J-Xms1920m -J-Xmx1920m</pre>
 
 Execution as described above will take place in a "sandbox".  The sandbox will allocate 2GB of memory; the entire program, including its runtime environment, must execute within this memory limit.  For interpreted languages (Java, Python, and Kotlin) the runtime environment includes the interpreter (that is, the JVM for Java/Kotlin and the Python interpreter for Python).
 
-The sandbox memory allocation size will be the same for all languages and all contest problems.  For Java and Kotlin, the above command shows the stack size and heap size settings which will be used when the program is run in the sandbox. For C, C++, and Python, the heap and stack sizes are limited only by the total amount of memory available in the sandbox.
+The sandbox memory allocation size will be the same for all languages and all contest problems. For Java and Kotlin, the above command shows the stack size and heap size settings which will be used when the program is run in the sandbox. For C, C++, and Python, the heap and stack sizes are limited only by the total amount of memory available in the sandbox.
 
 ## Software
 ### Editors
-* Code::Blocks 16.01
-* Eclipse 4.8
-* Emacs 25.2
+* Code::Blocks 17.12
+* Eclipse 4.13
+* Emacs 25.2.2
 * Geany 1.32
 * Gedit 3.28.1
 * Vim / GVim 8.0.1453
 * Idle 2.7.15
-* Idle 3.7.0
-* IntelliJ IIDEA Community 2018.2.4
-* PyCharm Community 2018.2.4
-* Clion 2018.2.4
-* Visual Studio Code 1.27.1
-* Atom 1.30.0
+* Idle 3.7.3
+* IntelliJ IIDEA 2019.2.2
+* PyCharm Community 20189.2.2
+* Clion 2019.2.2
+* Visual Studio Code 1.39.0
+* Atom 1.40.1 
 * Kate 17.12.3
 
 ### Utilities
@@ -80,7 +80,7 @@ The sandbox memory allocation size will be the same for all languages and all co
 #### Debuggers
 * ddd 3.3.12
 * Valgrind 3.13.0
-* gdb 8.1
+* gdb 8.1.0
 * junit 3.8.2
 
 #### Scripting
