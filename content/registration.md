@@ -18,6 +18,9 @@ The following rules will be adhered to when accepting teams.
 6. Remaining slots will be filled with teams of institutions that have not completed the form before October 1<sup>st</sup>.
 7. Preferences of team order can be emailed to kevin “at” nwerc “dot” eu
 
+## Slot assignment
+The results of the preregistration shows that all institutions listed below will get at least two slots!
+
 ## Institution list
 
 As of October 9<sup>th</sup> 23:59 CEST we have received a reply from the following institutions. If you have not yet submitted the form, please send us an email!
@@ -61,7 +64,7 @@ As of October 9<sup>th</sup> 23:59 CEST we have received a reply from the follow
  - University of Warwick
  - University of Oxford
  - University of Amsterdam
- - Brunel University London
+ - Brunel University London 
  - University of Manchester
  - University of Southampton
  - UCLouvain
@@ -70,10 +73,15 @@ As of October 9<sup>th</sup> 23:59 CEST we have received a reply from the follow
  - Maynooth University
  - Imperial College London
  - Aarhus University
+ - University of applied Sciences Landshut
+ - IT University of Copenhagen
+ - Technical University of Denmark
+ - University College Dublin
+ - University of Copenhagen
+ - Aarhus University
  - Inholland University of Applied Sciences
  - Université libre de Bruxelles
  - Rijksuniversiteit Groningen
- - University of Iceland
  - University of Glasgow
  - Umeå Universitet / Sweden
  - Cardiff Met University
