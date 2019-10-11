@@ -19,7 +19,7 @@ The following rules will be adhered to when accepting teams.
 7. Preferences of team order can be emailed to kevin “at” nwerc “dot” eu
 
 ## Slot assignment
-The results of the preregistration shows that all institutions listed below will get at least two slots!
+The results of the preregistration show that all institutions listed below will get at least two slots!
 
 ## Institution list
 
