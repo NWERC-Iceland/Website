@@ -1,6 +1,6 @@
 ---
 title: "System"
-date: 2019-10-10T23:41:52+02:00
+date: 2019-10-14T19:32:47+02:00
 weight: 7
 draft: false
 ---
@@ -62,7 +62,7 @@ The sandbox memory allocation size will be the same for all languages and all co
 * Vim / GVim 8.0.1453
 * Idle 2.7.15
 * Idle 3.7.3
-* IntelliJ IIDEA 2019.2.2
+* IntelliJ IDEA 2019.2.2
 * PyCharm Community 20189.2.2
 * Clion 2019.2.2
 * Visual Studio Code 1.39.0
