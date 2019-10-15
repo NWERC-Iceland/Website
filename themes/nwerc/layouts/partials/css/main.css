@@ -106,10 +106,10 @@ th {
 
 #footer {
     margin-top: 70px;
-    background: url("/img/footer-bg.png") repeat-x;
-    background-size: contain;
 }
 
 #footer img {
     display: block;
+    margin-top: -0px;
+    margin-bottom: 30px;
 }

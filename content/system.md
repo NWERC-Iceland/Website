@@ -16,8 +16,8 @@ Source files submitted to the Judges will be compiled using the following comman
 
 * GCC 7.4.0 
 <pre>gcc -x c -Wall -O2 -static -pipe -std=gnu11 ${files} -lm</pre>
-* G++ 7.4.0 
-<pre>g++ -x c++ -Wall -O2 -static -pipe -std=gnu++14 ${files}</pre>
+* G++ 7.4.0 (note the version bump, to gnu++17!)
+<pre>g++ -x c++ -Wall -O2 -static -pipe -std=gnu++17 ${files}</pre>
 * Java 11 (OpenJDK, Java 11.0.4) 
 <pre>javac -encoding UTF-8 -sourcepath . -d . ${files}</pre>
 * PyPy 5.10.0 (= Python 2.7.13)
