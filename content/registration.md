@@ -79,7 +79,6 @@ As of October 9<sup>th</sup> 23:59 CEST we have received a reply from the follow
  - Technical University of Denmark
  - University College Dublin
  - University of Copenhagen
- - Aarhus University
  - Inholland University of Applied Sciences
  - Université libre de Bruxelles
  - Rijksuniversiteit Groningen
