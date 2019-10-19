@@ -25,6 +25,7 @@ The results of the preregistration show that for all institutions listed below w
 
 As of October 9<sup>th</sup> 23:59 CEST we have received a reply from the following institutions. If you have not yet submitted the form, please send us an email!
 
+ - Eindhoven University of Technology (TU/e)
  - Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)
  - Saarland University
  - KTH Royal Institute of Technology
