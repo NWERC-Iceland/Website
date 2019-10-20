@@ -15,7 +15,14 @@ If you have any questions, please drop us an email at: contact "at" nwerc "dot" 
 ## Jury
 - Per Austrin (Coordination)
 - Irina Kostitsyna (Coordination)
-- To be decided
+- Bjarki Ágúst Guðmundsson
+- Lukáš Poláček
+- Paul Wild
+- Robin Lee
+- Nils Gustafsson
+- Ragnar Groot Koerkamp
+- Jeroen Branssen
+- Alexander Dietsch
 
 ## Local committee
 - Jasper Dellaert
