@@ -61,7 +61,7 @@ The sandbox memory allocation size will be the same for all languages and all co
 * Gedit 3.28.1
 * Vim / GVim 8.0.1453
 * Idle 2.7.15
-* Idle 3.6.1
+* Idle 3.6.8
 * IntelliJ IDEA 2019.2.2
 * PyCharm Community 20189.2.2
 * Clion 2019.2.2
