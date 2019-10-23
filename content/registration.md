@@ -5,7 +5,9 @@ weight: 2
 draft: false
 ---
 # Registration
-The final registration for the NWERC 2019 has not yet been opened. The pre-registration had, but has now been closed.
+The final registration for NWERC 2019 has now been opened please promote/register your teams a.s.a.p. and ensure that all information - especially allergy info - is correctly entered, both these actions need to happen through the ICPC system.
+For the local registration we are trying something new, by using a [ticketing system](https://eventix.shop/gfm32x22). Please “purchase” one ticket per team, you can also use this to enroll for activities, and for campus sleeping arrangements (5e pppn). A “cash” payment option is available (iff applicable). If you have selected this option please pay during registration. A card machine will be available, but cash is preferred. The local form can also be used to signal the enrollment priority for your teams. 
+
 
 # Team Admission rules
 The following rules will be adhered to when accepting teams.
