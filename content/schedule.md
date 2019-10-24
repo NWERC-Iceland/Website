@@ -1,8 +1,8 @@
 ---
 title: "Schedule"
-date: 2018-08-22T19:52:52+02:00
+date: 2019-10-22T19:52:52+02:00
 weight: 2
-draft: true
+draft: false
 ---
 # Schedule
 The following is the preliminary schedule.
@@ -12,7 +12,7 @@ The following is the preliminary schedule.
 	<tr>
 		<td>14:00 to 18:00</td>
 		<td>Team quiet room</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">Metaform 2 & Metaforum 3</a></td>
+		<td>TBA</td>
 	</tr>
 	<tr>
 		<td>17:00 to 22:00</td>
@@ -47,15 +47,15 @@ The following is the preliminary schedule.
 		<td><a href="https://goo.gl/maps/QmQBBtw1bKK2">Auditorium, Aula (1st floor)</a></td>
 	</tr>
 	<tr>
-		<td>14:00 to 18:00</td>
+		<td>14:00 to 19:00</td>
 		<td>Social Activities</td>
 		<td><a href="https://goo.gl/maps/QmQBBtw1bKK2">Around Eindhoven</a></td>
 	</tr>
-	<tr>
-		<td>18:00 to 19:00</td>
-		<td>Tech Workshop</td>
-		<td><a href="https://goo.gl/maps/QmQBBtw1bKK2">Auditorium, Aula (1st floor)</a></td>
-	</tr>
+	<!-- <tr> -->
+		<!-- <td>18:00 to 19:00</td> -->
+		<!-- <td>Tech Workshop</td> -->
+		<!-- <td><a href="https://goo.gl/maps/QmQBBtw1bKK2">Auditorium, Aula (1st floor)</a></td> -->
+	<!-- </tr> -->
 	<tr>
 		<td>19:00 to 22:30</td>
 		<td>Dinner</td>
@@ -76,27 +76,32 @@ The following is the preliminary schedule.
 	<tr>
 		<td>10:15 to 11:15</td>
 		<td>General Coaches' Meeting</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 7</a></td>
+		<td>TBA</td>
+		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 7</a></td> -->
 	</tr>
 	<tr>
 		<td>12:00 to 13:00</td>
 		<td>UKIEPC Coaches' Meeting</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td>
+		<td>TBA</td>
+		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
 		<td>12:00 to 13:00</td>
 		<td>Benelux Coaches' Meeting</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 9</a></td>
+		<td>TBA</td>
+		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 9</a></td> -->
 	</tr>
 	<tr>
 		<td>13:00 to 14:00</td>
 		<td>Nordic Coaches' Meeting</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td>
+		<td>TBA</td>
+		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
 		<td>14:00 to 15:00</td>
 		<td>GCPC Coaches' Meeting</td>
-		<td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td>
+		<td>TBA</td>
+		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
 		<td>15:00 to 17:00</td>
