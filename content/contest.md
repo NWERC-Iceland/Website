@@ -9,8 +9,8 @@ The Northwestern Europe Regional Contest (NWERC) is a contest in which teams fro
 
 # Previous contests
 * <a href="http://2018.nwerc.eu/">NWERC 2018 hosted by the Eindhoven University of Technology</a>
-* <a href="http://2017.nwerc.eu/">NWERC 2017 hosted by the University of Bath</a>
-* <a href="http://2016.nwerc.eu/">NWERC 2016 hosted by the University of Bath</a>
+* <a href="https://people.bath.ac.uk/masjhd/NWERC/">NWERC 2017 hosted by the University of Bath</a>
+* <a href="https://people.bath.ac.uk/masjhd/2016.NWERC/">NWERC 2016 hosted by the University of Bath</a>
 * <a href="http://2015.nwerc.eu/">NWERC 2015 hosted by the Linköping University</a>
 * <a href="http://2014.nwerc.eu/">NWERC 2014 hosted by the Linköping University</a>
 * <a href="http://2013.nwerc.eu/">NWERC 2013 hosted by the Delft University of Technology</a>
