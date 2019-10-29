@@ -38,7 +38,7 @@ The following is the preliminary schedule.
 	</tr>
 	<tr>
 		<td>12:00 to 13:00</td>
-		<td>Lunch + Tech Talk</td>
+		<td>Lunch</td>
 		<td><a href="https://goo.gl/maps/QmQBBtw1bKK2">Auditorium, Aula (1st floor)</a></td>
 	</tr>
 	<tr>
