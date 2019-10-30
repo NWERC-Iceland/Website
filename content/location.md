@@ -31,7 +31,7 @@ My man! An adventure! Kudos to you! You can find us <a target="_blank" href='htt
 Eindhoven is not a big city. You can easily walk to campus from anywhere within the city center. From the more secluded parts of the city, about an hour of walking is required to reach campus.
 
 ### By bus
-Eindhoven has an extensive public transport system in the form of a bus network. The network is laid out as a star pattern, with the central train station acting as the hub, which is located right next to the university campus. Most of the stops are serviced once every 15 minutes during the day and once every 30 minutes during the evening, and travel is very affordable. The only thing to be aware of, is that cash is no longer accepted. However, most credit- and debitcards are accepted. The Dutch public transport card also worksr of course.
+Eindhoven has an extensive public transport system in the form of a bus network. The network is laid out as a star pattern, with the central train station acting as the hub, which is located right next to the university campus. Most of the stops are serviced once every 15 minutes during the day and once every 30 minutes during the evening, and travel is very affordable. The only thing to be aware of, is that cash is no longer accepted. However, most credit- and debitcards are accepted. The Dutch public transport card also works of course.
 
 ### By bike
 Some hotels offer a bike rental service, which can be used to get around quickly and to more easily explore the city. Most of the streets have cycle paths and are separated from cars. Just note that many Dutch cyclists view traffic rules as "optional".
