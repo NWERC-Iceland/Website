@@ -43,10 +43,10 @@ For each language, if the above compilation step is successful then the submissi
 * For Python 2: the main source file will be executed by the PyPy Python interpreter to generate the output of the submission.
 * For Python 3: the main source file will be executed by the Pypy Python3 interpreter to generate the output of the submission.
 * For Java: the compiled main class will be executed using the following command:
-<pre>java -Dfile.encoding=UTF-8 -XX:+UseSerialGC -Xss128m -Xms1920m -Xmx1920m</pre>
+<pre>java -Dfile.encoding=UTF-8 -XX:+UseSerialGC -Xss128m -Xms1856m -Xmx1856m</pre>
 
 * For Kotlin: the compiled main class will be executed using the following command:
-<pre>kotlin -Dfile.encoding=UTF-8 -J-XX:+UseSerialGC -J-Xss128m -J-Xms1920m -J-Xmx1920m</pre>
+<pre>kotlin -Dfile.encoding=UTF-8 -J-XX:+UseSerialGC -J-Xss128m -J-Xms1856m -J-Xmx1856m</pre>
 
 Execution as described above will take place in a "sandbox".  The sandbox will allocate 2GB of memory; the entire program, including its runtime environment, must execute within this memory limit.  For interpreted languages (Java, Python, and Kotlin) the runtime environment includes the interpreter (that is, the JVM for Java/Kotlin and the Python interpreter for Python).
 
