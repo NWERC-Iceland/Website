@@ -24,7 +24,7 @@ Source files submitted to the Judges will be compiled using the following comman
 <pre>python2 -m py_compile ${files}</pre>
 * PyPy3 7.1.1 (= Python 3.6.1) 
 <pre>python3 -m py_compile ${files}</pre>
-* Kotlin (1.3.0)
+* Kotlin (1.3.50)
 <pre>kotlinc -d . ${files}</pre>
 
 The "${files}" in the above commands represents the list of source files from the submission which will actually be compiled. Files with the following suffixes (and only files with these suffixes) will be submitted to the compiler:
