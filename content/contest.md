@@ -15,8 +15,8 @@ The Northwestern Europe Regional Contest (NWERC) is a contest in which teams fro
 * <a href="http://2014.nwerc.eu/">NWERC 2014 hosted by the Linköping University</a>
 * <a href="http://2013.nwerc.eu/">NWERC 2013 hosted by the Delft University of Technology</a>
 * <a href="http://2012.nwerc.eu/">NWERC 2012 hosted by the Delft University of Technology</a>
-* <a href="http://2011.nwerc.eu/">NWERC 2011 hosted by the Jacobs University Bremen</a>
-* <a href="http://2010.nwerc.eu/">NWERC 2010 hosted by the Jacobs University Bremen</a>
+* <a href="https://web.archive.org/web/20120521220715/http://2011.nwerc.eu/">NWERC 2011 hosted by the Jacobs University Bremen</a>
+* <a href="https://web.archive.org/web/20120521220445/http://2010.nwerc.eu/">NWERC 2010 hosted by the Jacobs University Bremen</a>
 * <a href="http://2009.nwerc.eu/">NWERC 2009 hosted by the Friedrich-Alexander-University Erlangen-Nuremberg</a>
 * <a href="http://2008.nwerc.eu/">NWERC 2008 hosted by the University Of Utrecht</a>
 * <a href="http://2007.nwerc.eu/">NWERC 2007 hosted by the University Of Utrecht</a>
