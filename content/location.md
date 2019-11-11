@@ -40,7 +40,7 @@ Some hotels offer a bike rental service, which can be used to get around quickly
 Eindhoven does have many hotels, many of which are located close to the airport, so make sure you check the address before booking; the airport is <u>not</u> within walking distance of the campus.
 
 ### Sleeping on campus
-Last year we offered on campus sleeping arrangements, but these were not very popular. At the end of summer/beginning of fall we will do a "pre-registration" where we will guage whether we also provide this service.
+We offer on campus sleeping arrangements, see the registration form for how to register for these arrangements.
 
 # Wining and dining
 In the city center many restaurants can be found. Mainly around "De Markt" and the "Catherinaplein". Bars can be found at "Stratumseind", which is the longest pub-street in the Netherlands, so there is a little something for everyone.
