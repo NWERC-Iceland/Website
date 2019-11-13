@@ -87,6 +87,7 @@ Teams in red have not yet completed local registration
 		<tr><td>Delft University of Technology</td><td>RML Hangout</td></tr>
 		<tr><td></td><td>Inglorious Balkans</td></tr>
 		<tr><td></td><td>Team H</td></tr>
+		<tr><td></td><td>Three sarmas</td></tr>
 		<tr><td>Vrije Universiteit Amsterdam</td><td>The Amazon is on fire</td></tr>
 		<tr><td></td><td>Shockers</td></tr>
 		<tr><td></td><td>darkhorse</td></tr>
@@ -160,7 +161,7 @@ Teams in red have not yet completed local registration
 		<tr><td>Inholland University of Applied Sciences</td><td>CARPE DIEM</td></tr>
 		<tr><td>Rijksuniversiteit Groningen</td><td>camel_case</td></tr>
 		<tr class="incomplete"><td>University of Bradford</td><td>Eloïse Team</td></tr>
-		<tr class="incomplete"><td>Aberystwyth University</td><td>Travelling Salesmen</td></tr>
+		<tr><td>Aberystwyth University</td><td>Travelling Salesmen</td></tr>
 		<tr><td>Trinity College Dublin</td><td>Python considered harmful</td></tr>
 		<tr><td></td><td>Ode to Joy</td></tr>
 	</tbody>
