@@ -76,31 +76,31 @@ The following is the preliminary schedule.
 	<tr>
 		<td>10:15 to 11:15</td>
 		<td>General Coaches' Meeting</td>
-		<td>TBA</td>
+		<td>MF 7</td>
 		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 7</a></td> -->
 	</tr>
 	<tr>
 		<td>12:00 to 13:00</td>
 		<td>UKIEPC Coaches' Meeting</td>
-		<td>TBA</td>
+		<td>MF 6</td>
 		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
 		<td>12:00 to 13:00</td>
 		<td>Benelux Coaches' Meeting</td>
-		<td>TBA</td>
+		<td>MF 9</td>
 		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 9</a></td> -->
 	</tr>
 	<tr>
 		<td>13:00 to 14:00</td>
 		<td>Nordic Coaches' Meeting</td>
-		<td>TBA</td>
+		<td>MF 6</td>
 		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
 		<td>14:00 to 15:00</td>
 		<td>GCPC Coaches' Meeting</td>
-		<td>TBA</td>
+		<td>MF 6</td>
 		<!-- <td><a href="https://goo.gl/maps/pVGoMNQWqU82">MF 6</a></td> -->
 	</tr>
 	<tr>
