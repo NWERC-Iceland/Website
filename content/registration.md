@@ -62,8 +62,8 @@ Teams in red have not yet completed local registration
 		<tr class="incomplete"><td></td><td>Prime Goal 2.0</td></tr>
 		<tr><td>University of Nottingham</td><td>Segfault</td></tr>
 		<tr><td></td><td>Mineny?hmp</td></tr>
-		<tr class="incomplete"><td>University of Bergen</td><td>(*NULL)</td></tr>
-		<tr class="incomplete"><td></td><td>IllegalSkillsException</td></tr>
+		<tr><td>University of Bergen</td><td>(*NULL)</td></tr>
+		<tr><td></td><td>IllegalSkillsException</td></tr>
 		<tr><td>FAU Erlangen-Nuremberg</td><td>fau for vendetta</td></tr>
 		<tr><td></td><td>FoOlInG ArOuNd UnSuCcEsSfUlLy</td></tr>
 		<tr><td></td><td>Pleading not FAUlty</td></tr>
@@ -117,8 +117,8 @@ Teams in red have not yet completed local registration
 		<tr><td>Radboud University</td><td>An axiom is haunting Europe... the axiom of choice!</td></tr>
 		<tr><td></td><td>Boterham met Appelstroop of PindaCaas</td></tr>
 		<tr><td>Université de Mons</td><td>CPUMONS</td></tr>
-		<tr class="incomplete"><td>Linköping Institute of Technology</td><td>Notorious Big O</td></tr>
-		<tr class="incomplete"><td></td><td>Utter</td></tr>
+		<tr><td>Linköping Institute of Technology</td><td>Notorious Big O</td></tr>
+		<tr><td></td><td>Utter</td></tr>
 		<tr><td>Tallinn University of Technology</td><td>Tream Deam</td></tr>
 		<tr><td></td><td>Agonaudid</td></tr>
 		<tr class="incomplete"><td>Frankfurt University of Applied Sciences</td><td>Hope Hunter</td></tr>
