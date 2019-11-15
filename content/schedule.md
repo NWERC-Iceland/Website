@@ -12,7 +12,7 @@ The following is the preliminary schedule.
 	<tr>
 		<td>14:00 to 18:00</td>
 		<td>Team quiet room</td>
-		<td>TBA</td>
+		<td>MF 2</td>
 	</tr>
 	<tr>
 		<td>17:00 to 22:00</td>
