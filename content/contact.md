@@ -21,7 +21,7 @@ If you have any questions, please drop us an email at: contact "at" nwerc "dot" 
 - Robin Lee
 - Nils Gustafsson
 - Ragnar Groot Koerkamp
-- Jeroen Branssen
+- Jeroen Bransen
 - Alexander Dietsch
 
 ## Local committee
