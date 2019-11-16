@@ -10,7 +10,7 @@ A public (semi-live) contest will be hosted by Kattis and is available [here](ht
 All accepted teams have been added to the registration page, there are currently still teams that have not completed local registration, please do so ASAP!
 
 ## Final Registation
-Final registration has (finally) been openend! Pleaes see the registration page for more info.
+Final registration has (finally) been openend! Please see the registration page for more info.
 
 ## Pre Registration
 The pre-registration has now been closed!
