@@ -3,7 +3,7 @@ Welcome to the website of the NWERC, 2019; on this page, more information will a
 
 ## Problemset
 
-Here is the contest  <a href="/files/nwerc2019practice.pdf">problemset (pdf)</a>.
+Here is the contest  <a href="/files/nwerc2019problems.pdf">problemset (pdf)</a>.
 
 ## Scoreboard and public contest
 When the contest has started an online scoreboard will be made available at <a target="_blank" href="https://scoreboard.nwerc.eu/">https://scoreboard.nwerc.eu/</a>.<br/>
