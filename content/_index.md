@@ -5,6 +5,9 @@ Welcome to the website of the NWERC, 2019; on this page, more information will a
 When the contest has started an online scoreboard will be made available at <a target="_blank" href="https://scoreboard.nwerc.eu/">https://scoreboard.nwerc.eu/</a>.<br/>
 A public (semi-live) contest will be hosted by Kattis and is available [here](https://open.kattis.com/contests/nwerc19open); it will start 30 minutes after the official contest has started.
 
+## Livestream
+The contest will be livestreamed to <a target="_blank" href="https://youtube.com/icpclive">YouTube</a>, <a target="_blank" href="https://twitch.tv/icpclive">Twitch</a> and <a target="_blank" href="https://facebook.com/icpcnews">Facebook</a>
+
 ## Practice Session Material
 
 - <a href="/files/nwerc2019practice.pdf">Practice Problemset (pdf)</a>.
