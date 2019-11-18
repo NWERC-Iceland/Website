@@ -1,9 +1,12 @@
 ## Welcome!
 Welcome to the website of the NWERC, 2019; on this page, more information will appear quite soon, if you have any questions, please send us an email at contact "at" nwerc "dot" eu.
 
-## Problemset
+## Contest Material
 
-Here is the contest  <a href="/files/nwerc2019problems.pdf">problemset (pdf)</a>.
+- <a href="/scoreboard">Final Results</a>.
+- <a href="/files/nwerc2019problems.pdf">Problemset (pdf)</a>.
+- <a href="/files/nwerc2019slides.pdf">Solution Slides (pdf)</a>.
+- <a href="/files/nwerc2019slides.pdf">Problem Packages (tar.bz2)</a>.
 
 ## Scoreboard and public contest
 When the contest has started an online scoreboard will be made available at <a target="_blank" href="https://scoreboard.nwerc.eu/">https://scoreboard.nwerc.eu/</a>.<br/>
