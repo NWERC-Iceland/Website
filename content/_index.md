@@ -6,7 +6,7 @@ Welcome to the website of the NWERC, 2019; on this page, more information will a
 - <a href="/scoreboard">Final Results</a>.
 - <a href="/files/nwerc2019problems.pdf">Problemset (pdf)</a>.
 - <a href="/files/nwerc2019slides.pdf">Solution Slides (pdf)</a>.
-- <a href="/files/nwerc2019slides.pdf">Problem Packages (tar.bz2)</a>.
+- <a href="/files/nwerc2019all.tar.bz2">Problem Packages (tar.bz2)</a>.
 
 ## Scoreboard and public contest
 When the contest has started an online scoreboard will be made available at <a target="_blank" href="https://scoreboard.nwerc.eu/">https://scoreboard.nwerc.eu/</a>.<br/>
