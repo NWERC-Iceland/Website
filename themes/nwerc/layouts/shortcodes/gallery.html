@@ -21,6 +21,8 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 				{{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
 				{{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? --> 
 				{{- $thumbURL := print $baseURL ($.Get "dir") "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
+				{{- $imgPath := print "/static/" ($.Get "dir") "/" .Name }}<!-- absolute path to hi-res image -->
+				{{- $imgData := imageConfig $imgPath}}<!-- data of hi-res image -->
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 				    <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
@@ -29,7 +31,7 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 			      <figcaption>
 		          <p>{{ $caption }}</p>
 			      </figcaption>
-				    <a href="{{ $linkURL }}" itemprop="contentUrl" data-size="5488x3662"></a><!-- put <a> last so it is stacked on top -->
+				    <a href="{{ $linkURL }}" itemprop="contentUrl" data-size="{{$imgData.Width}}x{{$imgData.Height}}"></a><!-- put <a> last so it is stacked on top -->
 				  </figure>
 				</div>
 			{{- end }}
