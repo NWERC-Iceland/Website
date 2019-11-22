@@ -7,3 +7,7 @@ draft: false
 # Photos
 During the event, photos have been made by Max Langerak. Instagram: <a target="_blank" href="https://www.instagram.com/maxlangerak/">@maxlangerak</a>
 {{< gallery dir="photos/" caption-position="none" />}} {{< load-photoswipe >}}
+
+## Team photos
+The team photos have been made by Daniel van Leijenhorst.
+{{< gallery dir="team-photos/" caption-position="none" />}} {{< load-photoswipe >}}
