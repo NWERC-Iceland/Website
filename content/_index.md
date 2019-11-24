@@ -3,10 +3,10 @@ Welcome to the website of the NWERC, 2019; on this page, more information will a
 
 ## Contest Material
 
-- <a href="/scoreboard">Final Results</a>.
-- <a href="/files/nwerc2019problems.pdf">Problemset (pdf)</a>.
-- <a href="/files/nwerc2019slides.pdf">Solution Slides (pdf)</a>.
-- <a href="/files/nwerc2019all.tar.bz2">Problem Packages (tar.bz2)</a>.
+- [Final Results](/scoreboard).
+- [Problemset (pdf)](/files/nwerc2019problems.pdf).
+- [Solution Slides (pdf)](/files/nwerc2019slides.pdf).
+- [Problem Packages (tar.bz2)](/files/nwerc2019all.tar.bz2).
 
 ## Scoreboard and public contest
 When the contest has started an online scoreboard will be made available at <a target="_blank" href="https://scoreboard.nwerc.eu/">https://scoreboard.nwerc.eu/</a>.<br/>
@@ -17,9 +17,15 @@ The contest will be livestreamed to <a target="_blank" href="https://youtube.com
 
 ## Practice Session Material
 
-- <a href="/files/nwerc2019practice.pdf">Practice Problemset (pdf)</a>.
-- <a href="/files/nwerc2019practice-slides.pdf">Solution Slides for Practice Problemset (pdf)</a>.
-- <a href="/files/nwerc2019practice.tar.bz2">Problem Packages for Practice Problemset (tar.bz2)</a>.
+- [Practice Problemset (pdf)](/files/nwerc2019practice.pdf).
+- [Solution Slides for Practice Problemset (pdf)](/files/nwerc2019practice-slides.pdf).
+- [Problem Packages for Practice Problemset (tar.bz2)](/files/nwerc2019practice.tar.bz2).
+
+## Contest visualizations
+Josse van Dobben de Bruyn created two visualizations showing the progression of the contest, these can be found here:
+
+- [Score progession](/files/NWERC2019-score-progression.svg)
+- [Timeline per team](/files/NWERC2019-timeline-per-team.svg)
 
 ## Posted the accepted team list
 All accepted teams have been added to the registration page, there are currently still teams that have not completed local registration, please do so ASAP!
