@@ -1,5 +1,5 @@
 ## Welcome!
-Welcome to the website of the NWERC, 2019; on this page, more information will appear quite soon, if you have any questions, please send us an email at contact "at" nwerc "dot" eu.
+Welcome to the website of the NWERC, 2020; on this page, more information will appear quite soon, if you have any questions, please send us an email at contact "at" nwerc "dot" eu.
 
 ## Contest Material
 
