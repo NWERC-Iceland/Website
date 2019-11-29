@@ -7,15 +7,24 @@ pre {
 }
 
 #header {
-    height: 300px;
-    background: url("/img/header2019.jpg") no-repeat center;
+    /* height: 300px; */
+    height: 45vw;
+    max-height: 50vh;
+    background: url("/img/header2020.jpg") no-repeat;
+    background-position: 50% 55%;
+    /* background-position: 50% 50%; */
     background-size: cover;
     /* Add outline to text to make it more readable */
     text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px  1px 0 #000,
-            1px  1px 0 #000;
+            -1.3px -1.3px 0 #000,
+            1.3px -1.3px 0 #000,
+            -1.3px  1.3px 0 #000,
+            1.3px  1.3px 0 #000;
+
+    display: flex;
+    align-items: flex-end;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
 }
 
 #header .row {
@@ -44,6 +53,10 @@ pre {
 }
 
 @media(min-width: 992px) {
+
+    /* #header { */
+    /*     height: 400px; */
+    /* } */
 
     #header img {
         height: 100%;
