@@ -1,5 +1,0 @@
-baseURL = "https://nwerc.is/"
-languageCode = "en-us"
-title = "NWERC 2020"
-theme = "nwerc"
-disableKinds = ["taxonomy", "taxonomyTerm"]
