@@ -2,6 +2,9 @@ import { Component} from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { menu_items } from '../lib/navigation.js';
+
+/*
 const menu_items = [
   { url: '/', title: 'Home', sub: [] },
   { url: '/cfp', title: 'CFP', sub: [] },
@@ -22,6 +25,7 @@ const menu_items = [
   //] },
   { url: '/about', title: 'About', sub: [] },
 ];
+*/
 
 function MenuButton(props) {
   const onClick = () => props.parent.toggleMenu(props.id)
