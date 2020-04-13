@@ -1,4 +1,3 @@
-.DS_Store
-public
-static/photos/
-static/team-photos/
+/node_modules
+/out
+/.next
