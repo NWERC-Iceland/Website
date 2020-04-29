@@ -5,6 +5,7 @@ import "../styles/index.css";
 
 const news = [
   // Newest at the top
+  /*
   {
     title: 'Call for Problems announced',
     published: 'April 11, 2020',
@@ -16,6 +17,7 @@ const news = [
         requirements and procedures can be found on our #[Link(href="/cfp") #[a CfP page]].
     `,
   },
+  */
 ];
 
 export default () => pug`

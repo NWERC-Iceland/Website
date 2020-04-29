@@ -13,7 +13,7 @@ export default () => pug`
     p.
       In addition to the ICPC rules, the following local rules also apply:
 
-    h3 Team Composition
+    h3 Team composition
     // TODO: Update with 2020 version when it has been published
     p.
       A student may compete when eligible according to the 2020 ICPC Regionals Eligibility Diagram.
@@ -35,7 +35,7 @@ export default () => pug`
           desk. The location of the registration desk and the office hours will
           be announced to the participants in advance.
 
-    h3 Contest Material
+    h3 Contest material
     p.
       We follow the World Finals’ Rules, so a team is allowed to bring 3 copies
       of their Team Reference Document, but not allowed to bring any additional

@@ -4,29 +4,6 @@ import Link from 'next/link';
 
 import { menu_items } from '../lib/navigation.js';
 
-/*
-const menu_items = [
-  { url: '/', title: 'Home', sub: [] },
-  { url: '/cfp', title: 'CFP', sub: [] },
-  //{ url: '/results', title: 'Results', sub: [
-  //  { url: '/photos', title: 'Photos' },
-  //  { url: '/problems', title: 'Problem set' },
-  //  { url: '/standings', title: 'Final standings' },
-  //] },
-  { url: '/contest', title: 'Contest', sub: [
-    { url: '/rules', title: 'Rules' },
-    //{ url: '/system', title: 'System' },
-    { url: '/contest', title: 'About' },
-  ] },
-  //{ url: '/attendees', title: 'Attendees', sub: [
-  //  { url: '/registration', title: 'Registration' },
-  //  { url: '/location', title: 'Location' },
-  //  { url: '/schedule', title: 'Schedule' },
-  //] },
-  { url: '/about', title: 'About', sub: [] },
-];
-*/
-
 function MenuButton(props) {
   const onClick = () => props.parent.toggleMenu(props.id)
   const isOpen = props.parent.isMenuOpen(props.id)
@@ -148,12 +125,17 @@ export default class Layout extends Component {
                   path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
                 span Reykjavík University, Iceland
 
-          div.mt-2.sm_grid.grid-cols-3.gap-4
-            div.content.col-span-2.px-1
+          div.mt-2.sm_grid.grid-cols-3.gap-4.content
+            div.col-span-2.px-1
               = this.props.children
             div
-              h2.mt-6.text-gray-800.text-xl.font-bold Partners
-              p.mt-2.text-gray-800.text-base TODO
+              h2.mt-6 Partners
+              p.mt-2
+                Link(href="https://en.ru.is/")
+                  a.block.max-w-xs.mx-auto
+                    img(src="/images/HR_logo_midjad_transparent.png")
+              p.text-center
+                span.block.mt-4 Want to become a partner? Reach out at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu]
 
 `;
   }
