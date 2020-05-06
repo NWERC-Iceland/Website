@@ -5,19 +5,17 @@ import "../styles/index.css";
 
 const news = [
   // Newest at the top
-  /*
   {
     title: 'Call for Problems announced',
-    published: 'April 11, 2020',
+    published: 'May 6, 2020',
     content: pug`
       p.
         We are pleased to announce the Call for Problems (CfP) for the 2020
         edition of the NWERC programming contest. The deadline for submitting
-        candidate problems is #[b July 14, 2020]. Information about the submission
+        candidate problems is #[b July 12, 2020]. Information about the submission
         requirements and procedures can be found on our #[Link(href="/cfp") #[a CfP page]].
     `,
   },
-  */
 ];
 
 export default () => pug`
@@ -35,9 +33,8 @@ export default () => pug`
       Ireland, Iceland, the Netherlands, Norway, Sweden and Luxembourg.
       The top teams will advance to the ACM ICPC World Finals.
     p.
-      Stay tuned for news and information about the Call for Problems,
-      team registration, and location and accommodation as the contest
-      draws closer.
+      Stay tuned for news and information about team registration, the
+      location and accommodation as the contest draws closer.
 
     each news_item in news
       h3= news_item.title
