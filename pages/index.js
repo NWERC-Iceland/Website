@@ -6,6 +6,21 @@ import "../styles/index.css";
 const news = [
   // Newest at the top
   {
+    title: 'COVID-19 Update',
+    published: 'August 30, 2020',
+    content: pug`
+      p.
+        In light of the ongoing pandemic, the decision has been made not to
+        host the 2020 edition of NWERC onsite at Reykjavík University. Instead,
+        planning is underway for a distributed contest during the first quarter
+        of 2021, with local contest sites across the region. We are actively
+        looking for volunteers and points of contact for participating
+        universities and countries to help us make the contest become a
+        reality. Read the #[a(href="/covid-update") full announcement] and
+        reach out to us at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu].
+    `,
+  },
+  {
     title: 'Lithuania joining NWERC',
     published: 'August 29, 2020',
     content: pug`
@@ -34,7 +49,7 @@ export default () => pug`
     p.
       Welcome to the website for the Northwestern Europe Regional
       Contest 2020 (NWERC). NWERC 2020 is hosted by Reykjavík
-      University in Iceland and will take place November 20-22.
+      University in Iceland.
     p.
       NWERC 2020 is an official regional contest in the
       #[a(href="https://icpc.baylor.edu/") ACM International Collegiate Programming Contest].

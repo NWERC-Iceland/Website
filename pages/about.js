@@ -1,11 +1,8 @@
 import Link from 'next/link';
 import Layout from '../components/Layout.js';
+import {Email} from '../lib/util.js';
 
 import "../styles/index.css";
-
-const Email = (props) => pug`
-  a(href="mailto:" + props.address)= props.address
-`;
 
 export default () => pug`
   Layout
