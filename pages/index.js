@@ -6,6 +6,16 @@ import "../styles/index.css";
 const news = [
   // Newest at the top
   {
+    title: 'Lithuania joining NWERC',
+    published: 'August 29, 2020',
+    content: pug`
+      p.
+        This year the NWERC family has gotten bigger. Please give a warm
+        welcome to participants from Lithuania, who have now become members of
+        NWERC and NCPC. We are delighted to have you, welcome!
+    `,
+  },
+  {
     title: 'Call for Problems announced',
     published: 'May 6, 2020',
     content: pug`
@@ -30,7 +40,8 @@ export default () => pug`
       #[a(href="https://icpc.baylor.edu/") ACM International Collegiate Programming Contest].
       It draws students from colleges and universities throughout
       Belgium, Germany, Denmark, Estonia, Finland, Great Britain,
-      Ireland, Iceland, the Netherlands, Norway, Sweden and Luxembourg.
+      Ireland, Iceland, the Netherlands, Norway, Sweden and Luxembourg,
+      in addition to countries that joined in 2020: Lithuania!
       The top teams will advance to the ACM ICPC World Finals.
     p.
       Stay tuned for news and information about team registration, the
