@@ -7,6 +7,8 @@ module.exports = withCSS({
   exportPathMap: function() {
     const paths = { };
 
+    paths['/covid-update'] = '/covid-update';
+
     menu_items.forEach(item => {
       paths[item.url] = { page: item.url };
       item.sub.forEach(sub_item => {
