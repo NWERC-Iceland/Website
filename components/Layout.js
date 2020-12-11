@@ -119,12 +119,13 @@ export default class Layout extends Component {
               h2.text-gray-100.font-medium.text-md.flex
                 svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
                   path(d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z")
-                span Contest date TBD
+                span March 28, 2021
                 // November 20-22, 2020
               h3.text-gray-100.font-medium.text-md.flex
                 svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
                   path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
-                span Reykjavík University, Iceland
+                span Distributed contest
+                // Reykjavík University, Iceland
 
           div.mt-2.sm_grid.grid-cols-3.gap-4.content
             div.col-span-2.px-1

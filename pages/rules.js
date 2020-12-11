@@ -16,10 +16,7 @@ export default () => pug`
     h3 Team composition
     // TODO: Update with 2020 version when it has been published
     p.
-      A student may compete when eligible according to the 2020 ICPC Regionals Eligibility Diagram.
-      (This year's diagram has not been published. See the
-      #[a(href="http://icpc.baylor.edu/download/regionals/rules/EligibilityDecisionTree-2019.pdf") 2019 ICPC Regionals Eligibility Diagram]
-      for reference.)
+      A student may compete when eligible according to the #[a(href="http://icpc.baylor.edu/download/regionals/rules/EligibilityDecisionTree-2019.pdf") 2020 ICPC Regionals Eligibility Diagram].
 
     p
       ul
