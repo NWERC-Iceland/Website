@@ -34,7 +34,7 @@ export default () => pug`
 
     p.
         In addition to the compilers and interpreters listed on the
-        #[Link(href="/judging") #[a Judging]] page, as well as reference documentation
+        #[Link(href="/system") #[a Judging]] page, as well as reference documentation
         for all five submission languages, the virtual contest environment also
         includes the following software.
 
