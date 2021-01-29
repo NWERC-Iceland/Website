@@ -21,6 +21,10 @@
   @apply mt-6 text-gray-600 text-sm uppercase;
 }
 
+.content .faq h4 {
+  @apply mt-6 text-gray-800 text-base font-normal normal-case;
+}
+
 .content b {
   @apply font-semibold;
 }
