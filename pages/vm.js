@@ -99,7 +99,7 @@ export default () => pug`
         Note that the included editors and IDEs may not use the same compiler
         configuration by default.
 
-    h3 Frequently asked questions
+    h3#faq Frequently asked questions
 
     div.faq
 
