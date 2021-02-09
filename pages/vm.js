@@ -19,6 +19,7 @@ export default () => pug`
     h3 Download
     p The OVA for the virtual contest environment can be downloaded here:
         ul
+            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.1.ova") nwerc2020-vm-0.1.1.ova] (4.6GB, sha1: #[tt 204e0e7e26fd90b10237c6a7274703e52af3c814])
             li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.0.ova") nwerc2020-vm-0.1.0.ova] (4.6GB, sha1: #[tt a8639bb381a1cda886778e57395a757dec562443])
 
     h3 Usage
@@ -127,4 +128,14 @@ export default () => pug`
         p.
             A: Contact #[Email(address="technical@nwerc.eu")].
 
+    h3 Changelog
+
+    h4 Version 0.1.1
+    p
+        ul
+            li Increase default Video Memory to 64MB
+    h4 Version 0.1.0
+    p
+        ul
+            li Initial version
 `;

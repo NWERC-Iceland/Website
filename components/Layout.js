@@ -124,7 +124,7 @@ export default class Layout extends Component {
               h3.text-gray-100.font-medium.text-md.flex
                 svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
                   path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
-                span Distributed contest
+                span Online contest
                 // Reykjavík University, Iceland
 
           div.mt-2.sm_grid.grid-cols-3.gap-4.content
@@ -136,8 +136,6 @@ export default class Layout extends Component {
                 Link(href="https://en.ru.is/")
                   a.block.max-w-xs.mx-auto
                     img(src="/images/HR_logo_midjad_transparent.png")
-              p.text-center
-                span.block.mt-4 Want to become a partner? Reach out at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu]
 
 `;
   }
