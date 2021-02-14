@@ -9,7 +9,7 @@ export default () => pug`
     p.
         The registration for NWERC 2020 is now open and takes place on the
         #[a(href="https://icpc.global/private/teamRegistration/site/18460") ICPC registration system].
-        Registration closes on #[b March 16th, 2020].
+        Registration closes on #[b March 16th, 2021].
 
     p.
         Each team must have a non-student coach that is associated with the
