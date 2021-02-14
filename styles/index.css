@@ -41,6 +41,14 @@
   @apply list-disc list-outside ml-6 mt-2;
 }
 
+.schedule th {
+}
+
+.schedule td, .schedule th {
+    text-align: left;
+    @apply px-6 py-1;
+}
+
 @screen sm {
   .menu_item:hover > div, .menu_item:focus > div {
     @apply block;

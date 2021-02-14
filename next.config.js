@@ -12,7 +12,7 @@ module.exports = withCSS({
 
     menu_items.forEach(item => {
       paths[item.url] = { page: item.url };
-      item.sub.forEach(sub_item => {
+      (item.sub || []).forEach(sub_item => {
         paths[sub_item.url] = { page: sub_item.url };
       });
     });

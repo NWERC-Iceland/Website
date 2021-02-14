@@ -96,17 +96,17 @@ export default class Layout extends Component {
                 div.flex.items-center.bg-gray-200.sm_bg-transparent
                   Link(href=menu_item.url)
                     a.menu_item.block.flex-grow.px-4.sm_px-2.md_px-4.py-2.text-gray-800.sm_transition.sm_duration-100.sm_hover_bg-gray-700.sm_hover_text-white.sm_rounded.sm_relative= menu_item.title
-                      if menu_item.sub.length > 0
+                      if menu_item.sub && menu_item.sub.length > 0
                         div.absolute.hidden
                           ul.mt-3.-ml-5.w-48.rounded.bg-white.border-2.border-gray-100.shadow-lg.overflow-hidden
                             each sub_item, index in menu_item.sub
                               li
                                 Link(href=sub_item.url)
                                   a.block.px-4.py-2.text-gray-700.hover_bg-gray-700.hover_text-white.border-gray-200(className=index != 0 ? "border-t-2" : "")= sub_item.title
-                  if menu_item.sub.length > 0
+                  if menu_item.sub && menu_item.sub.length > 0
                     MenuButton.h-8.w-8.p-2.mr-4.sm_hidden(parent=that, id=menu_item.title, style='arrow')
                 ul.sm_hidden(className=this.isMenuOpen(menu_item.title) ? "" : "hidden")
-                  each sub_item in menu_item.sub
+                  each sub_item in menu_item.sub || []
                     li
                       Link(href=sub_item.url)
                         a.block.bg-gray-300.pl-6.pr-4.py-2.text-gray-700= sub_item.title
@@ -119,8 +119,7 @@ export default class Layout extends Component {
               h2.text-gray-100.font-medium.text-md.flex
                 svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
                   path(d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z")
-                span March 28, 2021
-                // November 20-22, 2020
+                span March 28-29, 2021
               h3.text-gray-100.font-medium.text-md.flex
                 svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
                   path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
@@ -132,10 +131,14 @@ export default class Layout extends Component {
               = this.props.children
             div
               h2.mt-6 Partners
-              p.mt-2
+              p.max-w-xs.mx-auto
                 Link(href="https://en.ru.is/")
-                  a.block.max-w-xs.mx-auto
-                    img(src="/images/HR_logo_midjad_transparent.png")
+                  a.block.mt-2
+                    img.mx-auto(src="/images/HR_logo_midjad_transparent.png")
+              p.max-w-xs.mx-auto
+                Link(href="https://www.kattis.com/")
+                  a.block.mt-6
+                    img.mx-auto(src="/images/kattis-logo.png")
 
 `;
   }

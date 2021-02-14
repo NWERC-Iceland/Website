@@ -7,6 +7,12 @@ export default () => pug`
   Layout
     h2 Contest control system
 
+    p.
+        During the contest, teams will submit proposed solutions to the contest
+        problems to the judges using the Kattis contest control system. A
+        preliminary version of the team manual for Kattis can be found
+        #[a(href="/files/kattis-team-guide.pdf") here].
+
     h3 Compilation of submissions
 
     p Source files submitted to the judges will be compiled using the following command line arguments for the respective language:

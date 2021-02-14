@@ -11,64 +11,93 @@ export default () => pug`
       site; #[a(href="https://icpc.baylor.edu/regionals/rules") official ICPC regional rules].
 
     p.
-      In addition to the ICPC rules, the following local rules also apply:
+        Given the exceptional circumstances this year NWERC 2020 will be
+        conducted fully online. The following temporary rules are intended to
+        accommodate for this change, and take precedence over the official ICPC
+        regional rules where there are contradictions.
+
+    p.
+        The NWERC 2020 Contest director has final say in determining any breach
+        of rules and consequences for the offending team, which could result in
+        disqualification.
 
     h3 Team composition
-    // TODO: Update with 2020 version when it has been published
     p.
-      A student may compete when eligible according to the #[a(href="http://icpc.baylor.edu/download/regionals/rules/EligibilityDecisionTree-2019.pdf") 2020 ICPC Regionals Eligibility Diagram].
+      A student may compete when eligible according to the
+      #[a(href="https://icpc.global/newcms/regionals/rules/EligibilityDecisionTree-2020.pdf") 2020 ICPC Regionals Eligibility Diagram].
 
     p
       ul
         li A team consists of 3 eligible students.
-        // li An educational institution may send up to two teams. TODO: This doesn't seem to be true anymore?
+        li An educational institution may send up to 3 teams.
         li.
           The educational institutions must be from one of the region member
           countries. By special request teams from other countries may be
           allowed to participate in this region, as stated in the ICPC Regional
           Rules.
         li.
-          All teams who want to participate have to check-in at the registration
-          desk. The location of the registration desk and the office hours will
-          be announced to the participants in advance.
+          All teams who want to participate must be #[Link(href="/registration") #[a registered]].
 
-    h3 Contest material
+    h3 Location
     p.
-      We follow the World Finals’ Rules, so a team is allowed to bring 3 copies
-      of their Team Reference Document, but not allowed to bring any additional
-      reference materials such as books, program listings and notes! You may not
-      bring any electronic device or machine readable media (this includes but
-      is not limited to cell phones, digital cameras, and mp3 players). You may
-      bring pens or pencils, but not paper (these will be provided). Winter
-      coats, bags etc. should not be brought to the contest floor.
+        Contestants are allowed to participate from any location of their
+        choice. Team members do not have to gather at the same location.
 
+    h3 Devices
     p.
-      Each contestant may bring a copy of a Team Reference Document. This document
-      may contain up to 25 pages of reference materials, single-sided, letter or
-      A4 size, with pages numbered in the upper right-hand corner and your
-      university name printed in the upper left-hand corner. Text and
-      illustrations must be readable by a person with correctable eyesight without
-      magnification from a distance of 1⁄2 meter. It may include hand-written
-      comments and corrections on the fronts of pages only, and they must be
-      present and identical in all copies of the document. The document should
-      be in some type of notebook or folder with the name of your institution on
-      the front.
+        Contestants are allowed to use their own computers and electronic
+        devices.
 
-    p.
-      Each team member may bring one printed, unannotated natural language
-      dictionary. You may bring mascots such as stuffed toy animals or party
-      hats (provided they do not violate any of the above constraints). If there
-      is some other item your team needs at the contest, please contact the Head
-      of Jury.
+    h3 Internet access
+    p Contestants are allowed to use the internet during the contest, with two restrictions:
+        ul
+            li Contestants are not allowed to publish or post any information on the internet during the contest.
+            li Contestants must only read information that was published before the start of the contest.
+    p Examples uses of the internet that are not allowed during the contest:
+        ul
+            li Posting information about the problems or sending anyone the problem statements.
+            li Asking questions on Stack Overflow or any other forums.
+            li Reading discussion threads that may include information about the NWERC 2020 problems.
 
+    h3 Existing code
     p.
-      Teams are allowed to bring one keyboard to replace the keyboard provided
-      by the notebook. Note that keyboards with pre-programmed macro keys are
-      not allowed. Wireless keyboards are also not allowed. A (single) mouse is
-      allowed too, but is subject to the same macro rule as with the keyboard.
+        Contestants are allowed to use preexisting code found on their
+        computers or on the internet, provided that it does not violate any
+        other rules about internet access (in particular, the code must have
+        been published before the start of the contest). However, any code
+        copied off the internet must be explicitly marked with a comment
+        containing a URL to the original source.
 
+    h3 Communication
     p.
-      Keyboard, mouse, and Team Reference Documents should be handed in at the
-      registration.
+        Contestants are allowed to communicate with their own team members
+        during the contest, and are encouraged to set up a private voice or
+        video conference for their team during the contest. Contestants are
+        also allowed to communicate with organizers and the jury through the
+        "Clarifications" interface in the judging system, where any and all
+        issues during the contest or questions about the problem statements
+        should be directed. Contestants are not allowed to communicate with
+        anyone else (including but not limited to their coach, friends,
+        contestants from other teams, or anyone else on the internet or in
+        person) during the contest.
+
+    h3 Software
+    p.
+        There are no restrictions on software use during the contest.
+        Contestants are allowed to use any operating system, IDE or editor they
+        like, and configure that software in any way they like before the
+        contest. In particular, contestants may configure their editor to use a
+        code template of their choice, provided it does not violate any other
+        rules about use of existing code. A #[Link(href="/vm") #[a virtual contest environment]]
+        containing the exact compiler versions as those used on the judge
+        machines, as well as a number of editors, IDEs, and other common
+        programming tools is provided as a convenience, but its use is
+        completely optional.
+
+    h3 Programming languages
+    p.
+        The judging system will only accept solutions written in C, C++, Java,
+        Python 3 and Kotlin. See details about specific versions and
+        compilation parameters on the #[Link(href="/system") #[a judging]] page.
 
 `;
