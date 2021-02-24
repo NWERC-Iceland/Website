@@ -27,6 +27,13 @@ function MenuButton(props) {
 }
 
 export default class Layout extends Component {
+  static defaultProps = {
+    icpcBanner: false,
+    icpcSponsors: false,
+    ruBanner: true,
+    showSponsors: true,
+  }
+
   constructor(props) {
     super(props)
 
@@ -113,32 +120,45 @@ export default class Layout extends Component {
 
       div(onClick=this.clickOutside)
         div.container.mx-auto.pb-10.pt-24.px-4
-          div.mt-2.py-64.relative.bg-cover.bg-center.rounded(style={backgroundImage: "linear-gradient(rgba(255,255,255,0.0), rgba(0,0,0,0.55)), url(/images/ru-background.jpg)"})
-            div.absolute.bottom-0.px-6.py-6
-              h1.text-gray-200.font-black.text-xl Northwestern Europe Regional Contest
-              h2.text-gray-100.font-medium.text-md.flex
-                svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
-                  path(d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z")
-                span March 27-28, 2021
-              h3.text-gray-100.font-medium.text-md.flex
-                svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
-                  path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
-                span Online contest
-                // Reykjavík University, Iceland
+          if this.props.icpcBanner
+            div.mt-0
+              img(src="/images/icpc-regional-header-master-jb-hua_Europe-NWERC_art.png")
 
-          div.mt-2.sm_grid.grid-cols-3.gap-4.content
-            div.col-span-2.px-1
+          if this.props.ruBanner
+            div.mt-2.py-64.relative.bg-cover.bg-center.rounded(style={backgroundImage: "linear-gradient(rgba(255,255,255,0.0), rgba(0,0,0,0.55)), url(/images/ru-background.jpg)"})
+              div.absolute.bottom-0.px-6.py-6
+                h1.text-gray-200.font-black.text-xl Northwestern Europe Regional Contest
+                h2.text-gray-100.font-medium.text-md.flex
+                  svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
+                    path(d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z")
+                  span March 27-28, 2021
+                h3.text-gray-100.font-medium.text-md.flex
+                  svg.pt-1.h-5.w-5.fill-current(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
+                    path(d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
+                  span Online contest
+                  // Reykjavík University, Iceland
+
+          if this.props.icpcBanner && !this.props.ruBanner
+            div.mt-6
+          div.mt-2.sm_grid.grid-cols-6.gap-4.content
+            div.col-span-4.px-1(className=this.props.showSponsors ? "" : "col-start-2")
               = this.props.children
-            div
-              h2.mt-6 Partners
-              p.max-w-xs.mx-auto
-                Link(href="https://en.ru.is/")
-                  a.block.mt-2
-                    img.mx-auto(src="/images/HR_logo_midjad_transparent.png")
-              p.max-w-xs.mx-auto
-                Link(href="https://www.kattis.com/")
-                  a.block.mt-6
-                    img.mx-auto(src="/images/kattis-logo.png")
+            if this.props.showSponsors
+              div.col-span-2
+                h2.mt-6 Partners
+                p.max-w-xs.mx-auto
+                  Link(href="https://en.ru.is/")
+                    a.block.mt-2
+                      img.mx-auto(src="/images/HR_logo_midjad_transparent.png")
+                if this.props.icpcSponsors
+                  p.max-w-xs.mx-auto
+                    Link(href="https://aws.amazon.com/education/awseducate/")
+                      a.block.mt-4
+                        img.mx-auto(src="/images/sponsor-EdTech-icpc-gold-aws-educate-cropped.png")
+                p.max-w-xs.mx-auto
+                  Link(href="https://www.kattis.com/")
+                    a.block.mt-8
+                      img.mx-auto(src="/images/kattis-logo.png")
 
 `;
   }

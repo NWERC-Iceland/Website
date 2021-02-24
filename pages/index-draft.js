@@ -57,7 +57,7 @@ const news = [
 ];
 
 export default () => pug`
-  Layout(ruBanner=true)
+  Layout(ruBanner=true, icpcBanner=true, icpcSponsors=true)
     h2 Welcome
     p.
       Welcome to the website for the Northwestern Europe Regional

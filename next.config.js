@@ -9,6 +9,8 @@ module.exports = withCSS({
 
     paths['/covid-update'] = { page: '/covid-update' };
     paths['/cfp'] = { page: '/cfp' };
+    paths['/partners-draft'] = { page: '/partners-draft' };
+    paths['/index-draft'] = { page: '/index-draft' };
 
     menu_items.forEach(item => {
       paths[item.url] = { page: item.url };
