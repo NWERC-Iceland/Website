@@ -14,11 +14,11 @@ export default () => pug`
         #[b ICPC Diamond Multi-Regional Sponsor], #[a(href="https://www.huawei.com/en/") #[b Huawei]],
         a leading global provider of information and communications technology
         infrastructure and smart devices. With more than 194,000 employees and
-        operating in more than 170 countries and regions, Huawei’s vision and
-        mission is to bring digital to every person, home and organization for
-        a fully connected, intelligent world. Huawei is constantly exploring
-        future innovations and is welcoming you to join the team to discover
-        more challenging topics in your region. 
+        operating in more than 170 countries and regions, #[a(href="https://career.huawei.com/reccampportal/portal5/top-news.html") Huawei’s]
+        vision and mission is to bring digital to every person, home and
+        organization for a fully connected, intelligent world. Huawei is
+        constantly exploring future innovations and is welcoming you to join
+        the team to discover more challenging topics in your region. 
 
     p.
         #[b ICPC Global Programming Tools Sponsor], #[a(href="https://www.jetbrains.com/") #[b JetBrains]],
@@ -29,7 +29,7 @@ export default () => pug`
         all-in-one team collaboration environment. JetBrains has been
         passionate about code since 2000. More than 9 million creative
         professionals from 213 countries and territories use and trust
-        JetBrains tools.
+        JetBrains tools. #[a(href="https://jb.gg/icpc") https://jb.gg/icpc]
 
     p.
         #[b EdTech ICPC Gold Sponsor]: With the increasing demand for cloud-skilled

@@ -28,9 +28,9 @@ function MenuButton(props) {
 
 export default class Layout extends Component {
   static defaultProps = {
-    icpcBanner: false,
-    icpcSponsors: false,
-    ruBanner: true,
+    icpcBanner: true,
+    icpcSponsors: true,
+    ruBanner: false,
     showSponsors: true,
   }
 
@@ -121,8 +121,10 @@ export default class Layout extends Component {
       div(onClick=this.clickOutside)
         div.container.mx-auto.pb-10.pt-24.px-4
           if this.props.icpcBanner
-            div.mt-0
+            div.mt-0.relative
               img(src="/images/icpc-regional-header-master-jb-hua_Europe-NWERC_art.png")
+              a.block.absolute(style={'top': '8%', 'left': '75%', 'height': '70%', 'width': '12%'}, href="https://www.jetbrains.com/", target="_blank")
+              a.block.absolute(style={'top': '8%', 'left': '87%', 'height': '70%', 'width': '12%'}, href="https://www.huawei.com/en/", target="_blank")
 
           if this.props.ruBanner
             div.mt-2.py-64.relative.bg-cover.bg-center.rounded(style={backgroundImage: "linear-gradient(rgba(255,255,255,0.0), rgba(0,0,0,0.55)), url(/images/ru-background.jpg)"})
@@ -147,18 +149,15 @@ export default class Layout extends Component {
               div.col-span-2
                 h2.mt-6 Partners
                 p.max-w-xs.mx-auto
-                  Link(href="https://en.ru.is/")
-                    a.block.mt-2
-                      img.mx-auto(src="/images/HR_logo_midjad_transparent.png")
+                  a.block.mt-2(href="https://en.ru.is/", target="_blank")
+                    img.mx-auto(src="/images/HR_logo_midjad_transparent.png")
                 if this.props.icpcSponsors
                   p.max-w-xs.mx-auto
-                    Link(href="https://aws.amazon.com/education/awseducate/")
-                      a.block.mt-4
-                        img.mx-auto(src="/images/sponsor-EdTech-icpc-gold-aws-educate-cropped.png")
+                    a.block.mt-4(href="https://aws.amazon.com/education/awseducate/", target="_blank")
+                      img.mx-auto(src="/images/sponsor-EdTech-icpc-gold-aws-educate-cropped.png")
                 p.max-w-xs.mx-auto
-                  Link(href="https://www.kattis.com/")
-                    a.block.mt-8
-                      img.mx-auto(src="/images/kattis-logo.png")
+                  a.block.mt-8(href="https://www.kattis.com/", target="_blank")
+                    img.mx-auto(src="/images/kattis-logo.png")
 
 `;
   }
