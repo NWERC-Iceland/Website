@@ -19,6 +19,7 @@ export default () => pug`
     h3 Download
     p The OVA for the virtual contest environment can be downloaded here:
         ul
+            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.2.ova") nwerc2020-vm-0.1.2.ova] (4.7GB, sha1: #[tt e02a91c9d30d2e8f0370146017f13f1fc638f3a6])
             li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.1.ova") nwerc2020-vm-0.1.1.ova] (4.6GB, sha1: #[tt 204e0e7e26fd90b10237c6a7274703e52af3c814])
             li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.0.ova") nwerc2020-vm-0.1.0.ova] (4.6GB, sha1: #[tt a8639bb381a1cda886778e57395a757dec562443])
 
@@ -95,6 +96,7 @@ export default () => pug`
             li #[tt myjavac], #[tt myjava]
             li #[tt mypython]
             li #[tt mykotlinc], #[tt mykotlin]
+            li #[tt submit]
 
     p.
         Note that the included editors and IDEs may not use the same compiler
@@ -119,7 +121,7 @@ export default () => pug`
         p.
             A: Screen resolution and scaling can be configured under View > Virtual Screen 1.
 
-        h4 Q: Why is the virtual machine so slow?
+        h4 Q: Why is the virtual machine so slow? Why is the screen black?
         p.
             A: Try increasing the Video Memory (found under Settings > Display
             after powering off the virtual machine) to 64MB or more.
@@ -130,6 +132,13 @@ export default () => pug`
 
     h3 Changelog
 
+    h4 Version 0.1.2
+    p
+        ul
+            li Install submit command
+            li Add Kattis team guide
+            li Fix network issue in VMWare Workstation
+            li Disable cloud-init and apport services
     h4 Version 0.1.1
     p
         ul
