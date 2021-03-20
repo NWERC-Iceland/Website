@@ -139,6 +139,7 @@ export default () => pug`
             li Add Kattis team guide
             li Fix network issue in VMWare Workstation
             li Disable cloud-init and apport services
+            li Update Java to version 11.0.10
     h4 Version 0.1.1
     p
         ul

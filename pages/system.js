@@ -23,7 +23,7 @@ export default () => pug`
             li C++ (GCC 9.3.0)
                 div
                     tt g++ -g -O2 -std=gnu++17 -static {files}
-            li Java 11 (OpenJDK, Java 11.0.9)
+            li Java 11 (OpenJDK, Java 11.0.10)
                 div
                     tt javac -encoding UTF-8 -sourcepath . -d . {files}
             li Python 3 (PyPy3 7.3.1, Python 3.6.9)
