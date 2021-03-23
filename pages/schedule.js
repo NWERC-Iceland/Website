@@ -11,6 +11,11 @@ export default () => pug`
         a livestream, online conferencing system, or online judging system. The
         preliminary version of the schedule is as follows. Time is specified in #[b UTC+1].
 
+    p.
+        #[b NOTE]: Many countries in the region transition into summer time on
+        Sunday, the day of the main competition. Click on an event time in the
+        schedule below to see how it translates to your local timezone.
+
     h3 Saturday, March 27th
     p
         table.schedule
@@ -27,7 +32,12 @@ export default () => pug`
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T10&ah=2&p1=3903") 10:00–12:00]
                     td Practice session
-                    td Online judging system
+                    td
+                        span Online judging system
+                        br
+                        span Contestants: link sent via email
+                        br
+                        span Others: see #[a(href="https://standings.nwerc.is/") online standings]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T12&ah=1&p1=3903") 12:00–13:00]
                     td Tech talk
@@ -57,7 +67,12 @@ export default () => pug`
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T10&ah=5&p1=3903") 10:00–15:00]
                     td Competition
-                    td Online judging system
+                    td
+                        span Online judging system
+                        br
+                        span Contestants: link sent via email
+                        br
+                        span Others: see #[a(href="https://standings.nwerc.is/") online standings] and livestream
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T11&ah=1&p1=3903") 11:00–12:00]
                     td General coaches' meeting

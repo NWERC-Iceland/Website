@@ -9,8 +9,8 @@ export default () => pug`
 
     p.
         During the contest, teams will submit proposed solutions to the contest
-        problems to the judges using the Kattis contest control system. A
-        preliminary version of the team manual for Kattis can be found
+        problems to the judges using the Kattis contest control system. The
+        team manual for Kattis can be found
         #[a(href="/files/kattis-team-guide.pdf") here].
 
     h3 Compilation of submissions
