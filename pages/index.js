@@ -6,6 +6,19 @@ import "../styles/index.css";
 const news = [
   // Newest at the top
   {
+    title: 'Friday update',
+    published: 'March 26, 2021',
+    content: pug`
+      p Tomorrow is the day of the practice session. A link to the livestream will be posted on the website tomorrow morning.
+      p A few notes about the format this weekend:
+        ul
+            li The judges have published a #[a(href="https://www.nwerc.eu/files/hints.pdf") document] with advice, hints, and general information about the contests this weekend. Contestants are asked to read it in full as it contains important new information, in particular about the inclusion of interactive problems this year.
+            li Public standings for the contests can be found at #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/].
+            li Due to the online nature of the contest this year, we have decided not to hold a simultaneous open contest, and to keep the problemset private until after the contest.
+            li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com") Open Kattis] on Saturday, April 3rd.
+    `,
+  },
+  {
     title: 'Registration and updates',
     published: 'February 14, 2021',
     content: pug`
@@ -71,9 +84,16 @@ export default () => pug`
       Ireland, Iceland, the Netherlands, Norway, Sweden and Luxembourg,
       in addition to countries that joined in 2020: Lithuania!
       The top teams will advance to the ACM ICPC World Finals.
-    p.
-      Stay tuned for news and information about team registration, the
-      location and accommodation as the contest draws closer.
+    br
+    hr
+    h2.mt-0 Practice session - March 27th, 2021
+    p Follow the NWERC 2020 Practice Session:
+    p #[b Livestream]: Link to be announced
+    p #[b Standings]: #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/]
+    p #[b Twitter]: #[a(href="https://twitter.com/nwerc_") @nwerc_], share pictures to #nwerc2020!
+    br
+    hr
+    br
 
     each news_item in news
       h3= news_item.title
