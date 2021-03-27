@@ -86,11 +86,22 @@ export default () => pug`
       The top teams will advance to the ACM ICPC World Finals.
     br
     hr
-    h2.mt-0 Practice session - March 27th, 2021
-    p Follow the NWERC 2020 Practice Session:
-    p #[b Livestream]: #[a(href="https://youtu.be/A4AYKHoP3jI") https://youtu.be/A4AYKHoP3jI]
+    h2.mt-0 NWERC 2020 - March 28th, 2021
+    p Follow NWERC 2020:
+    p #[b Livestream]: Link to be announced
+    // #[a(href="https://youtu.be/A4AYKHoP3jI") https://youtu.be/A4AYKHoP3jI]
     p #[b Standings]: #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/]
     p #[b Twitter]: #[a(href="https://twitter.com/nwerc_") @nwerc_], share pictures to #nwerc2020!
+    br
+    hr
+    h2.mt-0 Practice session material
+    p
+        ul
+            li #[a(href="/files/nwerc2020practice.pdf") Problem statements (pdf)]
+            li #[a(href="/files/nwerc2020practice-slides.pdf") Solution slides (pdf)]
+            li #[a(href="/files/nwerc2020practice.tar.bz2") Packaged problems (.tar.bz2, 12MB)]
+            li #[a(href="/files/practice-standings") Final standings]
+            li #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
     br
     hr
     br
