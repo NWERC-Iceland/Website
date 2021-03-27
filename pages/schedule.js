@@ -40,7 +40,7 @@ export default () => pug`
                         span Others: see #[a(href="https://standings.nwerc.is/") online standings]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T12&ah=1&p1=3903") 12:00–13:00]
-                    td Tech talk
+                    td Tech talk: Andres Löh
                     td Livestream
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T13&ah=1&p1=3903") 13:00–14:00]
@@ -48,7 +48,7 @@ export default () => pug`
                     td Livestream
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T14&ah=1&p1=3903") 14:00–15:00]
-                    td Sponsor workshops
+                    td Sponsor Tech Talks
                     td Online
 
     h3 Sunday, March 28th
