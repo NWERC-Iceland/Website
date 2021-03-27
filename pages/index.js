@@ -88,7 +88,7 @@ export default () => pug`
     hr
     h2.mt-0 Practice session - March 27th, 2021
     p Follow the NWERC 2020 Practice Session:
-    p #[b Livestream]: Link to be announced
+    p #[b Livestream]: #[a(href="https://youtu.be/A4AYKHoP3jI") https://youtu.be/A4AYKHoP3jI]
     p #[b Standings]: #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/]
     p #[b Twitter]: #[a(href="https://twitter.com/nwerc_") @nwerc_], share pictures to #nwerc2020!
     br

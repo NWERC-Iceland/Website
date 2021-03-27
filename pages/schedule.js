@@ -28,7 +28,7 @@ export default () => pug`
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T09&ah=1&p1=3903") 09:00–10:00]
                     td Welcome, system introduction
-                    td Livestream
+                    td #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T10&ah=2&p1=3903") 10:00–12:00]
                     td Practice session
@@ -41,15 +41,15 @@ export default () => pug`
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T12&ah=1&p1=3903") 12:00–13:00]
                     td Tech talk: Andres Löh
-                    td Livestream
+                    td #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T13&ah=1&p1=3903") 13:00–14:00]
                     td Practice session results
-                    td Livestream
+                    td #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210327T14&ah=1&p1=3903") 14:00–15:00]
-                    td Sponsor Tech Talks
-                    td Online
+                    td Sponsor Presentations
+                    td #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
 
     h3 Sunday, March 28th
     p
