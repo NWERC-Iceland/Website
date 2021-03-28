@@ -88,8 +88,7 @@ export default () => pug`
     hr
     h2.mt-0 NWERC 2020 - March 28th, 2021
     p Follow NWERC 2020:
-    p #[b Livestream]: Link to be announced
-    // #[a(href="https://youtu.be/A4AYKHoP3jI") https://youtu.be/A4AYKHoP3jI]
+    p #[b Livestream]: #[a(href="https://youtu.be/AdSJ6hBL7x8") https://youtu.be/AdSJ6hBL7x8]
     p #[b Standings]: #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/]
     p #[b Twitter]: #[a(href="https://twitter.com/nwerc_") @nwerc_], share pictures to #nwerc2020!
     br

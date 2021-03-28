@@ -63,7 +63,7 @@ export default () => pug`
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T0930&am=30&p1=3903") 09:30–10:00]
                     td Final remarks
-                    td Livestream
+                    td #[a(href="https://youtu.be/AdSJ6hBL7x8") Livestream]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T10&ah=5&p1=3903") 10:00–15:00]
                     td Competition
@@ -72,30 +72,30 @@ export default () => pug`
                         br
                         span Contestants: link sent via email
                         br
-                        span Others: see #[a(href="https://standings.nwerc.is/") online standings] and livestream
+                        span Others: see #[a(href="https://standings.nwerc.is/") online standings]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T11&ah=1&p1=3903") 11:00–12:00]
                     td General coaches' meeting
-                    td Online conference
+                    td #[a(href="https://meet.google.com/mzu-rdhc-tqo") Online conference]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T13&ah=1&p1=3903") 13:00–14:00]
                     td UKIEPC coaches' meeting
-                    td Online conference
+                    td #[a(href="https://meet.google.com/yjk-hnfy-oyu") Online conference]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T13&ah=1&p1=3903") 13:00–14:00]
                     td Benelux coaches' meeting
-                    td Online conference
+                    td #[a(href="https://meet.google.com/qiv-qsus-pxo") Online conference]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T13&ah=1&p1=3903") 13:00–14:00]
                     td Nordic coaches' meeting
-                    td Online conference
+                    td #[a(href="https://meet.google.com/txk-vmpb-eqt") Online conference]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T13&ah=1&p1=3903") 13:00–14:00]
                     td GCPC coaches' meeting
-                    td Online conference
+                    td #[a(href="https://meet.google.com/erj-xfhs-dym") Online conference]
                 tr
                     td #[a(href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210328T15&ah=2&p1=3903") 15:00–17:00]
                     td Results
-                    td Livestream
+                    td #[a(href="https://youtu.be/AdSJ6hBL7x8") Livestream]
 
 `;
