@@ -76,7 +76,7 @@ export default () => pug`
       Welcome to the website for the Northwestern Europe Regional
       Contest 2020 (NWERC). NWERC 2020 is hosted by Reykjavík
       University in Iceland.
-    p.
+    p.mb-6.
       NWERC 2020 is an official regional contest in the
       #[a(href="https://icpc.baylor.edu/") ACM International Collegiate Programming Contest].
       It draws students from colleges and universities throughout
@@ -84,26 +84,28 @@ export default () => pug`
       Ireland, Iceland, the Netherlands, Norway, Sweden and Luxembourg,
       in addition to countries that joined in 2020: Lithuania!
       The top teams will advance to the ACM ICPC World Finals.
-    br
     hr
-    h2.mt-0 NWERC 2020 - March 28th, 2021
-    p Follow NWERC 2020:
-    p #[b Livestream]: #[a(href="https://youtu.be/AdSJ6hBL7x8") https://youtu.be/AdSJ6hBL7x8]
-    p #[b Standings]: #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/]
-    p #[b Twitter]: #[a(href="https://twitter.com/nwerc_") @nwerc_], share pictures to #nwerc2020!
-    br
+    div.sm_grid.grid-cols-2
+        div
+            h2.mt-0 Contest material
+            p.mb-6
+                ul
+                    li #[a(href="/standings") Final standings]
+                    li #[a(href="/files/nwerc2020problems.pdf") Problemset (pdf)]
+                    li #[a(href="/files/nwerc2020slides.pdf") Solution slides (pdf)]
+                    li #[a(href="/files/nwerc2020all.tar.bz2") Packaged problems (.tar.bz2, 91MB)]
+                    li #[a(href="https://youtu.be/AdSJ6hBL7x8") Livestream]
+                    li #[a(href="https://twitter.com/nwerc_") Twitter]
+        div
+            h2.mt-0 Practice session material
+            p.mb-6
+                ul
+                    li #[a(href="/practice-standings") Final standings]
+                    li #[a(href="/files/nwerc2020practice.pdf") Problemset (pdf)]
+                    li #[a(href="/files/nwerc2020practice-slides.pdf") Solution slides (pdf)]
+                    li #[a(href="/files/nwerc2020practice.tar.bz2") Packaged problems (.tar.bz2, 12MB)]
+                    li #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
     hr
-    h2.mt-0 Practice session material
-    p
-        ul
-            li #[a(href="/files/nwerc2020practice.pdf") Problem statements (pdf)]
-            li #[a(href="/files/nwerc2020practice-slides.pdf") Solution slides (pdf)]
-            li #[a(href="/files/nwerc2020practice.tar.bz2") Packaged problems (.tar.bz2, 12MB)]
-            li #[a(href="/files/practice-standings") Final standings]
-            li #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
-    br
-    hr
-    br
 
     each news_item in news
       h3= news_item.title
