@@ -16,7 +16,7 @@ const news = [
 
       p In a few weeks we will start our preparations for NWERC 2021 which is set to take place in an online or distributed setting at the end of this year. If you are a coach or contestant that has competed in NWERC for the last time, and are interested in receiving the NWERC 2021 Call for Problems, please send an email to #[Email(address="bjarki@nwerc.eu")] titled "Call for Problems signup".
 
-      p Thank you all for a great contest last weekend - we look forward to seeing you all again at NWERC 2021. Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/sponsors") #[a sponsors]] page.
+      p Thank you all for a great contest last weekend - we look forward to seeing you all again at NWERC 2021. Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/partners") #[a sponsors]] page.
     `,
   },
   {
