@@ -1,10 +1,24 @@
 import Link from 'next/link';
 import Layout from '../components/Layout.js';
+import {Email} from '../lib/util.js';
 
 import "../styles/index.css";
 
 const news = [
   // Newest at the top
+  {
+    title: 'Final standings and open contest',
+    published: 'April 2, 2021',
+    content: pug`
+      p It's our pleasure to announce that all appeals have been resolved and the #[a(href="/standings") NWERC 2020 standings] have been finalized without any changes. Congratulations again to the NWERC 2020 Champions, Los Patrons from the University of Oxford, as well as all our medalists.
+
+      p All the contest materials have been published on our #[Link(href="/") #[a website]], including the problem set, solution slides, test data and judges' solutions. Also worth mentioning is that this Saturday, April 3rd, at 12:00 GMT+0 we will be hosting an open version of NWERC 2020 on #[a(href="https://open.kattis.com/contests/nwerc2020open") Open Kattis].
+
+      p In a few weeks we will start our preparations for NWERC 2021 which is set to take place in an online or distributed setting at the end of this year. If you are a coach or contestant that has competed in NWERC for the last time, and are interested in receiving the NWERC 2021 Call for Problems, please send an email to #[Email(address="bjarki@nwerc.eu")] titled "Call for Problems signup".
+
+      p Thank you all for a great contest last weekend - we look forward to seeing you all again at NWERC 2021. Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/sponsors") #[a sponsors]] page.
+    `,
+  },
   {
     title: 'Friday update',
     published: 'March 26, 2021',
